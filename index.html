@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Quennie T. Cenita, a computer science student and aspiring web developer." />
+  <title>Quennie T. Cenita | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">QC</span>
+        <span class="brand-text">Quennie Cenita</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#designs" class="nav-link">Designs</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computer Science / Web Developer / Graphic Designer</p>
+          <h1>Quennie T. Cenita</h1>
+          <p class="typing-line" aria-label="Professional focus">
+            <span class="typing-prefix"></span>
+            <span id="typingText"></span><span class="typing-cursor" aria-hidden="true"></span>
+          </p>
+          <p class="hero-lead">
+           I design and develop responsive websites, create engaging social media content, and craft modern graphic designs. Combining creativity and technology, I build digital experiences that are visually appealing, functional, and user-focused.
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="assets/resume-Quennie.pdf" download="resume-Quennie.pdf">Download CV</a>
+          </div>
+
+          <dl class="hero-metrics" aria-label="Portfolio highlights">
+            <div>
+              <dt>8+</dt>
+              <dd>Core skills</dd>
+            </div>
+            <div>
+              <dt>4</dt>
+              <dd>Featured works</dd>
+            </div>
+            <div>
+              <dt>2026</dt>
+              <dd>Portfolio</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-portrait reveal">
+          <img src="assets/me.jpg" alt="Portrait of Quennie T. Cenita" />
+          <div class="portrait-caption">
+            <span>Available for work and collaborations.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <p class="section-kicker">About</p>
+          <h2>Building useful interfaces with a  developer's curiosity.</h2>
+        </div>
+        <div class="section-body reveal">
+          <p>
+            I am a Computer Science  at Kolehiyo ng Subic who enjoys turning ideas into useful digital experiences. My work focuses on responsive web design, practical systems, and interfaces that feel clear from the first click.
+          </p>
+          <p>
+            I am continuously improving my skills in HTML, CSS, JavaScript, PHP, MySQL, Python, Framework Laravel and UI/UX design while preparing for real-world team development.
+          </p>
+          <div class="about-list">
+            <span>Frontend development</span>
+            <span>UI/UX design</span>
+            <span>PHP and MySQL systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Skills</p>
+          <h2>Focused tools for clean, responsive websites.</h2>
+          <p>Each skill supports the kind of portfolio work that needs structure, readability, and dependable user flows.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="module-label">01 / Markup</span>
+            <h3>HTML</h3>
+            <p>Semantic pages, accessible structure, and organized content.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">02 / Styling</span>
+            <h3>CSS</h3>
+            <p>Responsive layouts, visual systems, and polished interactions.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">03 / Motion</span>
+            <h3>JavaScript</h3>
+            <p>Interactive navigation, modals, form feedback, and UI behavior.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">04 / Backend</span>
+            <h3>PHP</h3>
+            <p>Server-side logic for forms, dashboards, and student systems.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">05 / Data</span>
+            <h3>MySQL</h3>
+            <p>Database design basics, records, and system data management.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">06 / Logic</span>
+            <h3>Java</h3>
+            <p>Programming fundamentals, logic, and object-oriented practice.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">07 / Layout</span>
+            <h3>Responsive Design</h3>
+            <p>Layouts that remain readable and balanced across devices.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span class="module-label">08 / Experience</span>
+            <h3>UI/UX Design</h3>
+            <p>Simple user journeys, hierarchy, and practical interface decisions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected development work.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <button class="project-media" type="button" aria-label="Preview POS system screenshot">
+              <img src="assets/1.png" alt="POS inventory and reservation system interface" />
+            </button>
+            <div class="project-content">
+              <div class="tag-list">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>POS with Inventory and Reservation System</h3>
+              <p>A practical sales system for processing transactions, tracking stock, and managing reservations in one workflow.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button class="project-media" type="button" aria-label="Preview portfolio screenshot">
+              <img src="assets/4.png" alt="Responsive portfolio website screenshot" />
+            </button>
+            <div class="project-content">
+              <div class="tag-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
+              </div>
+              <h3>Personal Portfolio Website</h3>
+              <p>A responsive website for presenting skills, projects, Designs, research, and contact information with a clean visual hierarchy.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button class="project-media" type="button" aria-label="Preview school management screenshot">
+              <img src="assets/2.png" alt="School management system interface" />
+            </button>
+            <div class="project-content">
+              <div class="tag-list">
+                <span>Java</span>
+                <span>MySQL</span>
+                <span>Desktop</span>
+              </div>
+              <h3>School Management System</h3>
+              <p>A student records concept for organizing schedules, learner information, and administrative tasks.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <button class="project-media" type="button" aria-label="Preview management system screenshot">
+              <img src="assets/3.png" alt="Management system interface" />
+            </button>
+            <div class="project-content">
+              <div class="tag-list">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Management</span>
+              </div>
+              <h3>Records Management Concept</h3>
+              <p>A system concept for maintaining records, simplifying updates, and making information easier to scan.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="designs">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Design Portfolio</p>
+          <h2>Visual work with clear hierarchy and purpose.</h2>
+          <p>Design samples that show layout sense, visual consistency, and attention to readable digital experiences.</p>
+        </div>
+
+        <div class="design-grid">
+          <article class="design-card reveal">
+            <button class="design-preview" type="button" aria-label="Preview portfolio landing page">
+              <img src="assets/4.png" alt="Portfolio landing page design" />
+            </button>
+            <div>
+              <span class="design-category">Website Design</span>
+              <h3>Portfolio Landing Page</h3>
+              <p>Responsive personal branding layout with calm spacing and focused sections.</p>
+            </div>
+          </article>
+
+          <article class="design-card reveal">
+            <button class="design-preview" type="button" aria-label="Preview food promo poster">
+              <img src="assets/10.png" alt="Food promotional poster design" />
+            </button>
+            <div>
+              <span class="design-category">Poster Design</span>
+              <h3>Food Promo Poster</h3>
+              <p>A bold poster concept with direct messaging and strong visual contrast.</p>
+            </div>
+          </article>
+
+          <article class="design-card reveal">
+            <button class="design-preview" type="button" aria-label="Preview system UI concept">
+              <img src="assets/1.png" alt="System dashboard design" />
+            </button>
+            <div>
+              <span class="design-category">UI Design</span>
+              <h3>System Dashboard UI</h3>
+              <p>Interface study focused on structured actions, clear tables, and usable screens.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Research</p>
+          <h2>Academic work that connects technology and learning.</h2>
+        </div>
+        <article class="research-content reveal">
+          <div class="tag-list">
+            <span>Academic Research</span>
+            <span>Survey</span>
+            <span>Education Tech</span>
+          </div>
+          <h3>AI-Enhanced vs. Traditional Learning</h3>
+          <p>
+            A student survey for Kolehiyo ng Subic that explores how AI-assisted learning compares with traditional classroom methods in productivity, comprehension, and overall learning experience.
+          </p>
+          <ul class="check-list">
+            <li>Compared student preferences and learning patterns.</li>
+            <li>Identified benefits and challenges of AI in college education.</li>
+            <li>Used Google Forms and spreadsheet tools for collection and analysis.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="resume-panel reveal">
+          <div>
+            <p class="section-kicker">Resume</p>
+            <h2>Education, practice, and project experience.</h2>
+            <p>Download my CV for internship applications, collaboration, or student project opportunities.</p>
+          </div>
+          <div class="resume-actions">
+            <a class="btn btn-primary" href="assets/resume-Quennie.pdf" download="resume-Quennie.pdf">Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="timeline-item reveal">
+            <span>Education</span>
+            <h3>Kolehiyo ng Subic</h3>
+            <p>Computer Science student focused on programming, web development, and systems analysis.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>Practice</span>
+            <h3>Frontend and PHP/MySQL Development</h3>
+            <p>Hands-on project work involving responsive pages, forms, dashboards, and database-backed systems.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>Experience</span>
+            <h3>Student Collaboration</h3>
+            <p>Project planning, presentation work, documentation, and practical problem solving with classmates.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>Let's build something clear and useful.</h2>
+          <p>Reach out for internships, collaboration, school projects, or frontend opportunities.</p>
+
+          <div class="contact-links">
+            <a href="mailto:quenniecenita7@gmail.com">quenniecenita7@gmail.com</a>
+            <a href="tel:+63915758423">+63 915 758 423</a>
+            <a href="https://github.com/kwini1004" target="_blank" rel="noopener">github.com/kwini1004</a>
+            <a href="https://www.facebook.com/share/17n48qRCVo" target="_blank" rel="noopener">Facebook profile</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright 2026 Quennie T. Cenita. All rights reserved.</p>
+      <a href="#home" class="back-to-top" id="backToTop">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="design-modal" id="designModal" aria-hidden="true">
+    <div class="design-modal-backdrop" data-close-design></div>
+    <div class="design-modal-panel" role="dialog" aria-modal="true" aria-label="Design preview">
+      <button class="design-modal-close" type="button" data-close-design aria-label="Close preview">Close</button>
+      <img id="designModalImage" src="" alt="Expanded design preview" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
