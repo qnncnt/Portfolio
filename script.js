@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sections = document.querySelectorAll('main section[id]');
   const revealItems = document.querySelectorAll('.reveal');
   const contactForm = document.getElementById('contactForm');
-  const formNote = document.getElementById('formNote');
+  const formRedirect = document.getElementById('formRedirect');
   const designModal = document.getElementById('designModal');
   const designModalImage = document.getElementById('designModalImage');
   const previewButtons = document.querySelectorAll('.design-preview, .project-media');
@@ -119,12 +119,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      formNote.textContent = 'Thanks for reaching out. Connect this form to an email service when you are ready.';
-      contactForm.reset();
-    });
+  if (contactForm && formRedirect) {
+    formRedirect.value = `${window.location.origin}/thank-you.html`;
   }
 
   if (designModal && previewButtons.length) {
