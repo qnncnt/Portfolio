@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const updateThemeLabel = () => {
     const isDark = body.dataset.theme === 'dark';
-    themeToggle.textContent = isDark ? 'Light' : 'Dark';
+    themeToggle.textContent = isDark ? '☀' : '☾';
     themeToggle.setAttribute('aria-label', `Switch to ${isDark ? 'light' : 'dark'} theme`);
+    themeToggle.setAttribute('title', `Switch to ${isDark ? 'light' : 'dark'} theme`);
   };
 
   updateThemeLabel();
